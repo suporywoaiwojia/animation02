@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3F17DF1C8FC9C70049F371 /* aa.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F17DE1C8FC9C70049F371 /* aa.gif */; };
+		8A3F3F961C86D1CD0062EC26 /* SunAnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F3F951C86D1CD0062EC26 /* SunAnimateView.swift */; };
+		8A9FDE1F1C89324A00DDA04D /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FDE1E1C89324A00DDA04D /* TextViewController.swift */; };
 		8AB2F60D1C86935B00F612A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2F60C1C86935B00F612A8 /* AppDelegate.swift */; };
 		8AB2F60F1C86935B00F612A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB2F60E1C86935B00F612A8 /* ViewController.swift */; };
 		8AB2F6121C86935C00F612A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB2F6101C86935C00F612A8 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A3F17DE1C8FC9C70049F371 /* aa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aa.gif; sourceTree = "<group>"; };
+		8A3F3F951C86D1CD0062EC26 /* SunAnimateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunAnimateView.swift; sourceTree = "<group>"; };
+		8A9FDE1E1C89324A00DDA04D /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		8AB2F6091C86935B00F612A8 /* animation02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB2F60C1C86935B00F612A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB2F60E1C86935B00F612A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +103,15 @@
 		8AB2F60B1C86935B00F612A8 /* animation02 */ = {
 			isa = PBXGroup;
 			children = (
+				8A3F17DE1C8FC9C70049F371 /* aa.gif */,
 				8AB2F60C1C86935B00F612A8 /* AppDelegate.swift */,
 				8AB2F60E1C86935B00F612A8 /* ViewController.swift */,
 				8AB2F6101C86935C00F612A8 /* Main.storyboard */,
 				8AB2F6131C86935C00F612A8 /* Assets.xcassets */,
 				8AB2F6151C86935C00F612A8 /* LaunchScreen.storyboard */,
 				8AB2F6181C86935C00F612A8 /* Info.plist */,
+				8A3F3F951C86D1CD0062EC26 /* SunAnimateView.swift */,
+				8A9FDE1E1C89324A00DDA04D /* TextViewController.swift */,
 			);
 			path = animation02;
 			sourceTree = "<group>";
@@ -229,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3F17DF1C8FC9C70049F371 /* aa.gif in Resources */,
 				8AB2F6171C86935C00F612A8 /* LaunchScreen.storyboard in Resources */,
 				8AB2F6141C86935C00F612A8 /* Assets.xcassets in Resources */,
 				8AB2F6121C86935C00F612A8 /* Main.storyboard in Resources */,
@@ -258,6 +268,8 @@
 			files = (
 				8AB2F60F1C86935B00F612A8 /* ViewController.swift in Sources */,
 				8AB2F60D1C86935B00F612A8 /* AppDelegate.swift in Sources */,
+				8A3F3F961C86D1CD0062EC26 /* SunAnimateView.swift in Sources */,
+				8A9FDE1F1C89324A00DDA04D /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				8AB2F6331C86935D00F612A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AB2F6341C86935D00F612A8 /* Build configuration list for PBXNativeTarget "animation02Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				8AB2F6361C86935D00F612A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AB2F6371C86935D00F612A8 /* Build configuration list for PBXNativeTarget "animation02UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				8AB2F6391C86935D00F612A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

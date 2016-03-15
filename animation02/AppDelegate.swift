@@ -13,13 +13,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//         self.window?.makeKeyAndVisible()
+//        
+//        let imageView = UIImageView(frame: (self.window?.bounds)!)
+//        imageView.image = UIImage(named: "welcome")
+//        
+//        let subImageView = UIImageView(frame: CGRectMake(0, 0, 320, 300))
+//        subImageView.image = UIImage(named: "wenzi")
+//        imageView.addSubview(subImageView)
+//        
+//        self.window?.addSubview(imageView)
+//        self.window?.bringSubviewToFront(imageView)
+//        
+//       
+//        UIView.animateWithDuration(3.0, delay: 0.0, options: UIViewAnimationOptions.TransitionFlipFromTop, animations: { () -> Void in
+//            subImageView.frame = CGRectMake(0, 500, 320,300)
+//            }) { (Bool) -> Void in
+//                self.window?.rootViewController = TextViewController()
+//        }
         return true
     }
+    
 
-    func applicationWillResignActive(application: UIApplication) {
+
+        func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
